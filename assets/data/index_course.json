@@ -1,0 +1,2171 @@
+{
+  "items": [
+    {
+      "id": "49-MI-VI-001",
+      "type": "video",
+      "title_ar": "محاضرة تمهيدية — فهم اختبار STEP + خطة المذاكرة (نموذج 49)",
+      "section": "Mixed",
+      "model_no": 49,
+      "minutes": 18,
+      "tags": [
+        "model49",
+        "intro"
+      ],
+      "priority": 5
+    },
+    {
+      "id": "49-GR-VI-002",
+      "type": "video",
+      "title_ar": "أخطاء شائعة القواعد — نموذج 49 (الجزء 1)",
+      "section": "Grammar",
+      "model_no": 49,
+      "minutes": 25,
+      "tags": [
+        "model49",
+        "grammar",
+        "core"
+      ],
+      "priority": 5
+    },
+    {
+      "id": "49-GR-VI-003",
+      "type": "video",
+      "title_ar": "استراتيجيات القواعد — نموذج 49 (الجزء 2)",
+      "section": "Grammar",
+      "model_no": 49,
+      "minutes": 28,
+      "tags": [
+        "model49",
+        "grammar",
+        "core"
+      ],
+      "priority": 5
+    },
+    {
+      "id": "49-GR-VI-004",
+      "type": "video",
+      "title_ar": "مراجعة القواعد — نموذج 49 (الجزء 3)",
+      "section": "Grammar",
+      "model_no": 49,
+      "minutes": 15,
+      "tags": [
+        "model49",
+        "grammar",
+        "core"
+      ],
+      "priority": 5
+    },
+    {
+      "id": "49-GR-VI-005",
+      "type": "video",
+      "title_ar": "استراتيجيات القواعد — نموذج 49 (الجزء 4)",
+      "section": "Grammar",
+      "model_no": 49,
+      "minutes": 25,
+      "tags": [
+        "model49",
+        "grammar",
+        "core"
+      ],
+      "priority": 4
+    },
+    {
+      "id": "49-GR-VI-006",
+      "type": "video",
+      "title_ar": "استراتيجيات القواعد — نموذج 49 (الجزء 5)",
+      "section": "Grammar",
+      "model_no": 49,
+      "minutes": 20,
+      "tags": [
+        "model49",
+        "grammar",
+        "core"
+      ],
+      "priority": 4
+    },
+    {
+      "id": "49-GR-VI-007",
+      "type": "video",
+      "title_ar": "مهارات تطبيقية القواعد — نموذج 49 (الجزء 6)",
+      "section": "Grammar",
+      "model_no": 49,
+      "minutes": 15,
+      "tags": [
+        "model49",
+        "grammar",
+        "core"
+      ],
+      "priority": 4
+    },
+    {
+      "id": "49-GR-VI-008",
+      "type": "video",
+      "title_ar": "مراجعة القواعد — نموذج 49 (الجزء 7)",
+      "section": "Grammar",
+      "model_no": 49,
+      "minutes": 28,
+      "tags": [
+        "model49",
+        "grammar",
+        "core"
+      ],
+      "priority": 4
+    },
+    {
+      "id": "49-GR-VI-009",
+      "type": "video",
+      "title_ar": "مراجعة القواعد — نموذج 49 (الجزء 8)",
+      "section": "Grammar",
+      "model_no": 49,
+      "minutes": 20,
+      "tags": [
+        "model49",
+        "grammar",
+        "core"
+      ],
+      "priority": 4
+    },
+    {
+      "id": "49-GR-PD-010",
+      "type": "pdf",
+      "title_ar": "ملف تدريبات القواعد + حلول مختصرة — نموذج 49",
+      "section": "Grammar",
+      "model_no": 49,
+      "minutes": 40,
+      "tags": [
+        "model49",
+        "grammar",
+        "practice"
+      ],
+      "priority": 5
+    },
+    {
+      "id": "49-GR-MO-011",
+      "type": "model",
+      "title_ar": "تطبيق نماذج القواعد (مختار) — نموذج 49",
+      "section": "Grammar",
+      "model_no": 49,
+      "minutes": 35,
+      "tags": [
+        "model49",
+        "grammar",
+        "models"
+      ],
+      "priority": 5
+    },
+    {
+      "id": "49-GR-QU-012",
+      "type": "quiz",
+      "title_ar": "كويز القواعد (مراجعة سريعة) — نموذج 49",
+      "section": "Grammar",
+      "model_no": 49,
+      "minutes": 15,
+      "tags": [
+        "model49",
+        "grammar",
+        "quiz"
+      ],
+      "priority": 4
+    },
+    {
+      "id": "49-GR-DR-013",
+      "type": "drill",
+      "title_ar": "تدريبات مركزة القواعد — نموذج 49",
+      "section": "Grammar",
+      "model_no": 49,
+      "minutes": 8,
+      "tags": [
+        "model49",
+        "grammar",
+        "drill"
+      ],
+      "priority": 4
+    },
+    {
+      "id": "49-RE-VI-014",
+      "type": "video",
+      "title_ar": "استراتيجيات القراءة — نموذج 49 (الجزء 1)",
+      "section": "Reading",
+      "model_no": 49,
+      "minutes": 20,
+      "tags": [
+        "model49",
+        "reading",
+        "core"
+      ],
+      "priority": 5
+    },
+    {
+      "id": "49-RE-VI-015",
+      "type": "video",
+      "title_ar": "استراتيجيات القراءة — نموذج 49 (الجزء 2)",
+      "section": "Reading",
+      "model_no": 49,
+      "minutes": 28,
+      "tags": [
+        "model49",
+        "reading",
+        "core"
+      ],
+      "priority": 5
+    },
+    {
+      "id": "49-RE-VI-016",
+      "type": "video",
+      "title_ar": "استراتيجيات القراءة — نموذج 49 (الجزء 3)",
+      "section": "Reading",
+      "model_no": 49,
+      "minutes": 20,
+      "tags": [
+        "model49",
+        "reading",
+        "core"
+      ],
+      "priority": 5
+    },
+    {
+      "id": "49-RE-VI-017",
+      "type": "video",
+      "title_ar": "شرح مبسط القراءة — نموذج 49 (الجزء 4)",
+      "section": "Reading",
+      "model_no": 49,
+      "minutes": 18,
+      "tags": [
+        "model49",
+        "reading",
+        "core"
+      ],
+      "priority": 4
+    },
+    {
+      "id": "49-RE-VI-018",
+      "type": "video",
+      "title_ar": "أخطاء شائعة القراءة — نموذج 49 (الجزء 5)",
+      "section": "Reading",
+      "model_no": 49,
+      "minutes": 28,
+      "tags": [
+        "model49",
+        "reading",
+        "core"
+      ],
+      "priority": 4
+    },
+    {
+      "id": "49-RE-VI-019",
+      "type": "video",
+      "title_ar": "شرح مبسط القراءة — نموذج 49 (الجزء 6)",
+      "section": "Reading",
+      "model_no": 49,
+      "minutes": 15,
+      "tags": [
+        "model49",
+        "reading",
+        "core"
+      ],
+      "priority": 4
+    },
+    {
+      "id": "49-RE-VI-020",
+      "type": "video",
+      "title_ar": "مراجعة القراءة — نموذج 49 (الجزء 7)",
+      "section": "Reading",
+      "model_no": 49,
+      "minutes": 18,
+      "tags": [
+        "model49",
+        "reading",
+        "core"
+      ],
+      "priority": 4
+    },
+    {
+      "id": "49-RE-VI-021",
+      "type": "video",
+      "title_ar": "مفاهيم أساسية القراءة — نموذج 49 (الجزء 8)",
+      "section": "Reading",
+      "model_no": 49,
+      "minutes": 20,
+      "tags": [
+        "model49",
+        "reading",
+        "core"
+      ],
+      "priority": 4
+    },
+    {
+      "id": "49-RE-PD-022",
+      "type": "pdf",
+      "title_ar": "ملف تدريبات القراءة + حلول مختصرة — نموذج 49",
+      "section": "Reading",
+      "model_no": 49,
+      "minutes": 25,
+      "tags": [
+        "model49",
+        "reading",
+        "practice"
+      ],
+      "priority": 5
+    },
+    {
+      "id": "49-RE-MO-023",
+      "type": "model",
+      "title_ar": "تطبيق نماذج القراءة (مختار) — نموذج 49",
+      "section": "Reading",
+      "model_no": 49,
+      "minutes": 35,
+      "tags": [
+        "model49",
+        "reading",
+        "models"
+      ],
+      "priority": 5
+    },
+    {
+      "id": "49-RE-QU-024",
+      "type": "quiz",
+      "title_ar": "كويز القراءة (مراجعة سريعة) — نموذج 49",
+      "section": "Reading",
+      "model_no": 49,
+      "minutes": 15,
+      "tags": [
+        "model49",
+        "reading",
+        "quiz"
+      ],
+      "priority": 4
+    },
+    {
+      "id": "49-RE-DR-025",
+      "type": "drill",
+      "title_ar": "تدريبات مركزة القراءة — نموذج 49",
+      "section": "Reading",
+      "model_no": 49,
+      "minutes": 8,
+      "tags": [
+        "model49",
+        "reading",
+        "drill"
+      ],
+      "priority": 4
+    },
+    {
+      "id": "49-VO-VI-026",
+      "type": "video",
+      "title_ar": "حل نماذج المفردات — نموذج 49 (الجزء 1)",
+      "section": "Vocabulary",
+      "model_no": 49,
+      "minutes": 20,
+      "tags": [
+        "model49",
+        "vocabulary",
+        "core"
+      ],
+      "priority": 5
+    },
+    {
+      "id": "49-VO-VI-027",
+      "type": "video",
+      "title_ar": "مفاهيم أساسية المفردات — نموذج 49 (الجزء 2)",
+      "section": "Vocabulary",
+      "model_no": 49,
+      "minutes": 28,
+      "tags": [
+        "model49",
+        "vocabulary",
+        "core"
+      ],
+      "priority": 5
+    },
+    {
+      "id": "49-VO-VI-028",
+      "type": "video",
+      "title_ar": "حل نماذج المفردات — نموذج 49 (الجزء 3)",
+      "section": "Vocabulary",
+      "model_no": 49,
+      "minutes": 30,
+      "tags": [
+        "model49",
+        "vocabulary",
+        "core"
+      ],
+      "priority": 5
+    },
+    {
+      "id": "49-VO-VI-029",
+      "type": "video",
+      "title_ar": "شرح مبسط المفردات — نموذج 49 (الجزء 4)",
+      "section": "Vocabulary",
+      "model_no": 49,
+      "minutes": 25,
+      "tags": [
+        "model49",
+        "vocabulary",
+        "core"
+      ],
+      "priority": 4
+    },
+    {
+      "id": "49-VO-VI-030",
+      "type": "video",
+      "title_ar": "أخطاء شائعة المفردات — نموذج 49 (الجزء 5)",
+      "section": "Vocabulary",
+      "model_no": 49,
+      "minutes": 20,
+      "tags": [
+        "model49",
+        "vocabulary",
+        "core"
+      ],
+      "priority": 4
+    },
+    {
+      "id": "49-VO-VI-031",
+      "type": "video",
+      "title_ar": "مراجعة المفردات — نموذج 49 (الجزء 6)",
+      "section": "Vocabulary",
+      "model_no": 49,
+      "minutes": 20,
+      "tags": [
+        "model49",
+        "vocabulary",
+        "core"
+      ],
+      "priority": 4
+    },
+    {
+      "id": "49-VO-VI-032",
+      "type": "video",
+      "title_ar": "حل نماذج المفردات — نموذج 49 (الجزء 7)",
+      "section": "Vocabulary",
+      "model_no": 49,
+      "minutes": 22,
+      "tags": [
+        "model49",
+        "vocabulary",
+        "core"
+      ],
+      "priority": 4
+    },
+    {
+      "id": "49-VO-VI-033",
+      "type": "video",
+      "title_ar": "حل نماذج المفردات — نموذج 49 (الجزء 8)",
+      "section": "Vocabulary",
+      "model_no": 49,
+      "minutes": 25,
+      "tags": [
+        "model49",
+        "vocabulary",
+        "core"
+      ],
+      "priority": 4
+    },
+    {
+      "id": "49-VO-PD-034",
+      "type": "pdf",
+      "title_ar": "ملف تدريبات المفردات + حلول مختصرة — نموذج 49",
+      "section": "Vocabulary",
+      "model_no": 49,
+      "minutes": 35,
+      "tags": [
+        "model49",
+        "vocabulary",
+        "practice"
+      ],
+      "priority": 5
+    },
+    {
+      "id": "49-VO-MO-035",
+      "type": "model",
+      "title_ar": "تطبيق نماذج المفردات (مختار) — نموذج 49",
+      "section": "Vocabulary",
+      "model_no": 49,
+      "minutes": 35,
+      "tags": [
+        "model49",
+        "vocabulary",
+        "models"
+      ],
+      "priority": 5
+    },
+    {
+      "id": "49-VO-QU-036",
+      "type": "quiz",
+      "title_ar": "كويز المفردات (مراجعة سريعة) — نموذج 49",
+      "section": "Vocabulary",
+      "model_no": 49,
+      "minutes": 10,
+      "tags": [
+        "model49",
+        "vocabulary",
+        "quiz"
+      ],
+      "priority": 4
+    },
+    {
+      "id": "49-VO-DR-037",
+      "type": "drill",
+      "title_ar": "تدريبات مركزة المفردات — نموذج 49",
+      "section": "Vocabulary",
+      "model_no": 49,
+      "minutes": 12,
+      "tags": [
+        "model49",
+        "vocabulary",
+        "drill"
+      ],
+      "priority": 4
+    },
+    {
+      "id": "49-LI-VI-038",
+      "type": "video",
+      "title_ar": "أخطاء شائعة الاستماع — نموذج 49 (الجزء 1)",
+      "section": "Listening",
+      "model_no": 49,
+      "minutes": 28,
+      "tags": [
+        "model49",
+        "listening",
+        "core"
+      ],
+      "priority": 5
+    },
+    {
+      "id": "49-LI-VI-039",
+      "type": "video",
+      "title_ar": "أخطاء شائعة الاستماع — نموذج 49 (الجزء 2)",
+      "section": "Listening",
+      "model_no": 49,
+      "minutes": 25,
+      "tags": [
+        "model49",
+        "listening",
+        "core"
+      ],
+      "priority": 5
+    },
+    {
+      "id": "49-LI-VI-040",
+      "type": "video",
+      "title_ar": "مهارات تطبيقية الاستماع — نموذج 49 (الجزء 3)",
+      "section": "Listening",
+      "model_no": 49,
+      "minutes": 30,
+      "tags": [
+        "model49",
+        "listening",
+        "core"
+      ],
+      "priority": 5
+    },
+    {
+      "id": "49-LI-VI-041",
+      "type": "video",
+      "title_ar": "مراجعة الاستماع — نموذج 49 (الجزء 4)",
+      "section": "Listening",
+      "model_no": 49,
+      "minutes": 12,
+      "tags": [
+        "model49",
+        "listening",
+        "core"
+      ],
+      "priority": 4
+    },
+    {
+      "id": "49-LI-VI-042",
+      "type": "video",
+      "title_ar": "مفاهيم أساسية الاستماع — نموذج 49 (الجزء 5)",
+      "section": "Listening",
+      "model_no": 49,
+      "minutes": 25,
+      "tags": [
+        "model49",
+        "listening",
+        "core"
+      ],
+      "priority": 4
+    },
+    {
+      "id": "49-LI-VI-043",
+      "type": "video",
+      "title_ar": "حل نماذج الاستماع — نموذج 49 (الجزء 6)",
+      "section": "Listening",
+      "model_no": 49,
+      "minutes": 25,
+      "tags": [
+        "model49",
+        "listening",
+        "core"
+      ],
+      "priority": 4
+    },
+    {
+      "id": "49-LI-VI-044",
+      "type": "video",
+      "title_ar": "مراجعة الاستماع — نموذج 49 (الجزء 7)",
+      "section": "Listening",
+      "model_no": 49,
+      "minutes": 30,
+      "tags": [
+        "model49",
+        "listening",
+        "core"
+      ],
+      "priority": 4
+    },
+    {
+      "id": "49-LI-VI-045",
+      "type": "video",
+      "title_ar": "شرح مبسط الاستماع — نموذج 49 (الجزء 8)",
+      "section": "Listening",
+      "model_no": 49,
+      "minutes": 15,
+      "tags": [
+        "model49",
+        "listening",
+        "core"
+      ],
+      "priority": 4
+    },
+    {
+      "id": "49-LI-PD-046",
+      "type": "pdf",
+      "title_ar": "ملف تدريبات الاستماع + حلول مختصرة — نموذج 49",
+      "section": "Listening",
+      "model_no": 49,
+      "minutes": 40,
+      "tags": [
+        "model49",
+        "listening",
+        "practice"
+      ],
+      "priority": 5
+    },
+    {
+      "id": "49-LI-MO-047",
+      "type": "model",
+      "title_ar": "تطبيق نماذج الاستماع (مختار) — نموذج 49",
+      "section": "Listening",
+      "model_no": 49,
+      "minutes": 35,
+      "tags": [
+        "model49",
+        "listening",
+        "models"
+      ],
+      "priority": 5
+    },
+    {
+      "id": "49-LI-QU-048",
+      "type": "quiz",
+      "title_ar": "كويز الاستماع (مراجعة سريعة) — نموذج 49",
+      "section": "Listening",
+      "model_no": 49,
+      "minutes": 10,
+      "tags": [
+        "model49",
+        "listening",
+        "quiz"
+      ],
+      "priority": 4
+    },
+    {
+      "id": "49-LI-DR-049",
+      "type": "drill",
+      "title_ar": "تدريبات مركزة الاستماع — نموذج 49",
+      "section": "Listening",
+      "model_no": 49,
+      "minutes": 12,
+      "tags": [
+        "model49",
+        "listening",
+        "drill"
+      ],
+      "priority": 4
+    },
+    {
+      "id": "50-MI-VI-050",
+      "type": "video",
+      "title_ar": "محاضرة تمهيدية — فهم اختبار STEP + خطة المذاكرة (نموذج 50)",
+      "section": "Mixed",
+      "model_no": 50,
+      "minutes": 18,
+      "tags": [
+        "model50",
+        "intro"
+      ],
+      "priority": 5
+    },
+    {
+      "id": "50-GR-VI-051",
+      "type": "video",
+      "title_ar": "حل نماذج القواعد — نموذج 50 (الجزء 1)",
+      "section": "Grammar",
+      "model_no": 50,
+      "minutes": 22,
+      "tags": [
+        "model50",
+        "grammar",
+        "core"
+      ],
+      "priority": 5
+    },
+    {
+      "id": "50-GR-VI-052",
+      "type": "video",
+      "title_ar": "مهارات تطبيقية القواعد — نموذج 50 (الجزء 2)",
+      "section": "Grammar",
+      "model_no": 50,
+      "minutes": 22,
+      "tags": [
+        "model50",
+        "grammar",
+        "core"
+      ],
+      "priority": 5
+    },
+    {
+      "id": "50-GR-VI-053",
+      "type": "video",
+      "title_ar": "استراتيجيات القواعد — نموذج 50 (الجزء 3)",
+      "section": "Grammar",
+      "model_no": 50,
+      "minutes": 25,
+      "tags": [
+        "model50",
+        "grammar",
+        "core"
+      ],
+      "priority": 5
+    },
+    {
+      "id": "50-GR-VI-054",
+      "type": "video",
+      "title_ar": "مفاهيم أساسية القواعد — نموذج 50 (الجزء 4)",
+      "section": "Grammar",
+      "model_no": 50,
+      "minutes": 30,
+      "tags": [
+        "model50",
+        "grammar",
+        "core"
+      ],
+      "priority": 4
+    },
+    {
+      "id": "50-GR-VI-055",
+      "type": "video",
+      "title_ar": "مراجعة القواعد — نموذج 50 (الجزء 5)",
+      "section": "Grammar",
+      "model_no": 50,
+      "minutes": 18,
+      "tags": [
+        "model50",
+        "grammar",
+        "core"
+      ],
+      "priority": 4
+    },
+    {
+      "id": "50-GR-VI-056",
+      "type": "video",
+      "title_ar": "استراتيجيات القواعد — نموذج 50 (الجزء 6)",
+      "section": "Grammar",
+      "model_no": 50,
+      "minutes": 30,
+      "tags": [
+        "model50",
+        "grammar",
+        "core"
+      ],
+      "priority": 4
+    },
+    {
+      "id": "50-GR-VI-057",
+      "type": "video",
+      "title_ar": "شرح مبسط القواعد — نموذج 50 (الجزء 7)",
+      "section": "Grammar",
+      "model_no": 50,
+      "minutes": 20,
+      "tags": [
+        "model50",
+        "grammar",
+        "core"
+      ],
+      "priority": 4
+    },
+    {
+      "id": "50-GR-VI-058",
+      "type": "video",
+      "title_ar": "تدريب سريع القواعد — نموذج 50 (الجزء 8)",
+      "section": "Grammar",
+      "model_no": 50,
+      "minutes": 18,
+      "tags": [
+        "model50",
+        "grammar",
+        "core"
+      ],
+      "priority": 4
+    },
+    {
+      "id": "50-GR-PD-059",
+      "type": "pdf",
+      "title_ar": "ملف تدريبات القواعد + حلول مختصرة — نموذج 50",
+      "section": "Grammar",
+      "model_no": 50,
+      "minutes": 40,
+      "tags": [
+        "model50",
+        "grammar",
+        "practice"
+      ],
+      "priority": 5
+    },
+    {
+      "id": "50-GR-MO-060",
+      "type": "model",
+      "title_ar": "تطبيق نماذج القواعد (مختار) — نموذج 50",
+      "section": "Grammar",
+      "model_no": 50,
+      "minutes": 60,
+      "tags": [
+        "model50",
+        "grammar",
+        "models"
+      ],
+      "priority": 5
+    },
+    {
+      "id": "50-GR-QU-061",
+      "type": "quiz",
+      "title_ar": "كويز القواعد (مراجعة سريعة) — نموذج 50",
+      "section": "Grammar",
+      "model_no": 50,
+      "minutes": 12,
+      "tags": [
+        "model50",
+        "grammar",
+        "quiz"
+      ],
+      "priority": 4
+    },
+    {
+      "id": "50-GR-DR-062",
+      "type": "drill",
+      "title_ar": "تدريبات مركزة القواعد — نموذج 50",
+      "section": "Grammar",
+      "model_no": 50,
+      "minutes": 8,
+      "tags": [
+        "model50",
+        "grammar",
+        "drill"
+      ],
+      "priority": 4
+    },
+    {
+      "id": "50-RE-VI-063",
+      "type": "video",
+      "title_ar": "حل نماذج القراءة — نموذج 50 (الجزء 1)",
+      "section": "Reading",
+      "model_no": 50,
+      "minutes": 18,
+      "tags": [
+        "model50",
+        "reading",
+        "core"
+      ],
+      "priority": 5
+    },
+    {
+      "id": "50-RE-VI-064",
+      "type": "video",
+      "title_ar": "شرح مبسط القراءة — نموذج 50 (الجزء 2)",
+      "section": "Reading",
+      "model_no": 50,
+      "minutes": 28,
+      "tags": [
+        "model50",
+        "reading",
+        "core"
+      ],
+      "priority": 5
+    },
+    {
+      "id": "50-RE-VI-065",
+      "type": "video",
+      "title_ar": "مهارات تطبيقية القراءة — نموذج 50 (الجزء 3)",
+      "section": "Reading",
+      "model_no": 50,
+      "minutes": 18,
+      "tags": [
+        "model50",
+        "reading",
+        "core"
+      ],
+      "priority": 5
+    },
+    {
+      "id": "50-RE-VI-066",
+      "type": "video",
+      "title_ar": "مهارات تطبيقية القراءة — نموذج 50 (الجزء 4)",
+      "section": "Reading",
+      "model_no": 50,
+      "minutes": 22,
+      "tags": [
+        "model50",
+        "reading",
+        "core"
+      ],
+      "priority": 4
+    },
+    {
+      "id": "50-RE-VI-067",
+      "type": "video",
+      "title_ar": "مهارات تطبيقية القراءة — نموذج 50 (الجزء 5)",
+      "section": "Reading",
+      "model_no": 50,
+      "minutes": 25,
+      "tags": [
+        "model50",
+        "reading",
+        "core"
+      ],
+      "priority": 4
+    },
+    {
+      "id": "50-RE-VI-068",
+      "type": "video",
+      "title_ar": "أخطاء شائعة القراءة — نموذج 50 (الجزء 6)",
+      "section": "Reading",
+      "model_no": 50,
+      "minutes": 20,
+      "tags": [
+        "model50",
+        "reading",
+        "core"
+      ],
+      "priority": 4
+    },
+    {
+      "id": "50-RE-VI-069",
+      "type": "video",
+      "title_ar": "أخطاء شائعة القراءة — نموذج 50 (الجزء 7)",
+      "section": "Reading",
+      "model_no": 50,
+      "minutes": 15,
+      "tags": [
+        "model50",
+        "reading",
+        "core"
+      ],
+      "priority": 4
+    },
+    {
+      "id": "50-RE-VI-070",
+      "type": "video",
+      "title_ar": "تدريب سريع القراءة — نموذج 50 (الجزء 8)",
+      "section": "Reading",
+      "model_no": 50,
+      "minutes": 18,
+      "tags": [
+        "model50",
+        "reading",
+        "core"
+      ],
+      "priority": 4
+    },
+    {
+      "id": "50-RE-PD-071",
+      "type": "pdf",
+      "title_ar": "ملف تدريبات القراءة + حلول مختصرة — نموذج 50",
+      "section": "Reading",
+      "model_no": 50,
+      "minutes": 30,
+      "tags": [
+        "model50",
+        "reading",
+        "practice"
+      ],
+      "priority": 5
+    },
+    {
+      "id": "50-RE-MO-072",
+      "type": "model",
+      "title_ar": "تطبيق نماذج القراءة (مختار) — نموذج 50",
+      "section": "Reading",
+      "model_no": 50,
+      "minutes": 35,
+      "tags": [
+        "model50",
+        "reading",
+        "models"
+      ],
+      "priority": 5
+    },
+    {
+      "id": "50-RE-QU-073",
+      "type": "quiz",
+      "title_ar": "كويز القراءة (مراجعة سريعة) — نموذج 50",
+      "section": "Reading",
+      "model_no": 50,
+      "minutes": 12,
+      "tags": [
+        "model50",
+        "reading",
+        "quiz"
+      ],
+      "priority": 4
+    },
+    {
+      "id": "50-RE-DR-074",
+      "type": "drill",
+      "title_ar": "تدريبات مركزة القراءة — نموذج 50",
+      "section": "Reading",
+      "model_no": 50,
+      "minutes": 12,
+      "tags": [
+        "model50",
+        "reading",
+        "drill"
+      ],
+      "priority": 4
+    },
+    {
+      "id": "50-VO-VI-075",
+      "type": "video",
+      "title_ar": "شرح مبسط المفردات — نموذج 50 (الجزء 1)",
+      "section": "Vocabulary",
+      "model_no": 50,
+      "minutes": 18,
+      "tags": [
+        "model50",
+        "vocabulary",
+        "core"
+      ],
+      "priority": 5
+    },
+    {
+      "id": "50-VO-VI-076",
+      "type": "video",
+      "title_ar": "استراتيجيات المفردات — نموذج 50 (الجزء 2)",
+      "section": "Vocabulary",
+      "model_no": 50,
+      "minutes": 22,
+      "tags": [
+        "model50",
+        "vocabulary",
+        "core"
+      ],
+      "priority": 5
+    },
+    {
+      "id": "50-VO-VI-077",
+      "type": "video",
+      "title_ar": "مهارات تطبيقية المفردات — نموذج 50 (الجزء 3)",
+      "section": "Vocabulary",
+      "model_no": 50,
+      "minutes": 18,
+      "tags": [
+        "model50",
+        "vocabulary",
+        "core"
+      ],
+      "priority": 5
+    },
+    {
+      "id": "50-VO-VI-078",
+      "type": "video",
+      "title_ar": "مفاهيم أساسية المفردات — نموذج 50 (الجزء 4)",
+      "section": "Vocabulary",
+      "model_no": 50,
+      "minutes": 25,
+      "tags": [
+        "model50",
+        "vocabulary",
+        "core"
+      ],
+      "priority": 4
+    },
+    {
+      "id": "50-VO-VI-079",
+      "type": "video",
+      "title_ar": "استراتيجيات المفردات — نموذج 50 (الجزء 5)",
+      "section": "Vocabulary",
+      "model_no": 50,
+      "minutes": 18,
+      "tags": [
+        "model50",
+        "vocabulary",
+        "core"
+      ],
+      "priority": 4
+    },
+    {
+      "id": "50-VO-VI-080",
+      "type": "video",
+      "title_ar": "مهارات تطبيقية المفردات — نموذج 50 (الجزء 6)",
+      "section": "Vocabulary",
+      "model_no": 50,
+      "minutes": 30,
+      "tags": [
+        "model50",
+        "vocabulary",
+        "core"
+      ],
+      "priority": 4
+    },
+    {
+      "id": "50-VO-VI-081",
+      "type": "video",
+      "title_ar": "مهارات تطبيقية المفردات — نموذج 50 (الجزء 7)",
+      "section": "Vocabulary",
+      "model_no": 50,
+      "minutes": 28,
+      "tags": [
+        "model50",
+        "vocabulary",
+        "core"
+      ],
+      "priority": 4
+    },
+    {
+      "id": "50-VO-VI-082",
+      "type": "video",
+      "title_ar": "مراجعة المفردات — نموذج 50 (الجزء 8)",
+      "section": "Vocabulary",
+      "model_no": 50,
+      "minutes": 28,
+      "tags": [
+        "model50",
+        "vocabulary",
+        "core"
+      ],
+      "priority": 4
+    },
+    {
+      "id": "50-VO-PD-083",
+      "type": "pdf",
+      "title_ar": "ملف تدريبات المفردات + حلول مختصرة — نموذج 50",
+      "section": "Vocabulary",
+      "model_no": 50,
+      "minutes": 40,
+      "tags": [
+        "model50",
+        "vocabulary",
+        "practice"
+      ],
+      "priority": 5
+    },
+    {
+      "id": "50-VO-MO-084",
+      "type": "model",
+      "title_ar": "تطبيق نماذج المفردات (مختار) — نموذج 50",
+      "section": "Vocabulary",
+      "model_no": 50,
+      "minutes": 60,
+      "tags": [
+        "model50",
+        "vocabulary",
+        "models"
+      ],
+      "priority": 5
+    },
+    {
+      "id": "50-VO-QU-085",
+      "type": "quiz",
+      "title_ar": "كويز المفردات (مراجعة سريعة) — نموذج 50",
+      "section": "Vocabulary",
+      "model_no": 50,
+      "minutes": 10,
+      "tags": [
+        "model50",
+        "vocabulary",
+        "quiz"
+      ],
+      "priority": 4
+    },
+    {
+      "id": "50-VO-DR-086",
+      "type": "drill",
+      "title_ar": "تدريبات مركزة المفردات — نموذج 50",
+      "section": "Vocabulary",
+      "model_no": 50,
+      "minutes": 8,
+      "tags": [
+        "model50",
+        "vocabulary",
+        "drill"
+      ],
+      "priority": 4
+    },
+    {
+      "id": "50-LI-VI-087",
+      "type": "video",
+      "title_ar": "تدريب سريع الاستماع — نموذج 50 (الجزء 1)",
+      "section": "Listening",
+      "model_no": 50,
+      "minutes": 15,
+      "tags": [
+        "model50",
+        "listening",
+        "core"
+      ],
+      "priority": 5
+    },
+    {
+      "id": "50-LI-VI-088",
+      "type": "video",
+      "title_ar": "أخطاء شائعة الاستماع — نموذج 50 (الجزء 2)",
+      "section": "Listening",
+      "model_no": 50,
+      "minutes": 30,
+      "tags": [
+        "model50",
+        "listening",
+        "core"
+      ],
+      "priority": 5
+    },
+    {
+      "id": "50-LI-VI-089",
+      "type": "video",
+      "title_ar": "مفاهيم أساسية الاستماع — نموذج 50 (الجزء 3)",
+      "section": "Listening",
+      "model_no": 50,
+      "minutes": 15,
+      "tags": [
+        "model50",
+        "listening",
+        "core"
+      ],
+      "priority": 5
+    },
+    {
+      "id": "50-LI-VI-090",
+      "type": "video",
+      "title_ar": "مراجعة الاستماع — نموذج 50 (الجزء 4)",
+      "section": "Listening",
+      "model_no": 50,
+      "minutes": 12,
+      "tags": [
+        "model50",
+        "listening",
+        "core"
+      ],
+      "priority": 4
+    },
+    {
+      "id": "50-LI-VI-091",
+      "type": "video",
+      "title_ar": "أخطاء شائعة الاستماع — نموذج 50 (الجزء 5)",
+      "section": "Listening",
+      "model_no": 50,
+      "minutes": 12,
+      "tags": [
+        "model50",
+        "listening",
+        "core"
+      ],
+      "priority": 4
+    },
+    {
+      "id": "50-LI-VI-092",
+      "type": "video",
+      "title_ar": "مفاهيم أساسية الاستماع — نموذج 50 (الجزء 6)",
+      "section": "Listening",
+      "model_no": 50,
+      "minutes": 15,
+      "tags": [
+        "model50",
+        "listening",
+        "core"
+      ],
+      "priority": 4
+    },
+    {
+      "id": "50-LI-VI-093",
+      "type": "video",
+      "title_ar": "مراجعة الاستماع — نموذج 50 (الجزء 7)",
+      "section": "Listening",
+      "model_no": 50,
+      "minutes": 12,
+      "tags": [
+        "model50",
+        "listening",
+        "core"
+      ],
+      "priority": 4
+    },
+    {
+      "id": "50-LI-VI-094",
+      "type": "video",
+      "title_ar": "مهارات تطبيقية الاستماع — نموذج 50 (الجزء 8)",
+      "section": "Listening",
+      "model_no": 50,
+      "minutes": 20,
+      "tags": [
+        "model50",
+        "listening",
+        "core"
+      ],
+      "priority": 4
+    },
+    {
+      "id": "50-LI-PD-095",
+      "type": "pdf",
+      "title_ar": "ملف تدريبات الاستماع + حلول مختصرة — نموذج 50",
+      "section": "Listening",
+      "model_no": 50,
+      "minutes": 30,
+      "tags": [
+        "model50",
+        "listening",
+        "practice"
+      ],
+      "priority": 5
+    },
+    {
+      "id": "50-LI-MO-096",
+      "type": "model",
+      "title_ar": "تطبيق نماذج الاستماع (مختار) — نموذج 50",
+      "section": "Listening",
+      "model_no": 50,
+      "minutes": 50,
+      "tags": [
+        "model50",
+        "listening",
+        "models"
+      ],
+      "priority": 5
+    },
+    {
+      "id": "50-LI-QU-097",
+      "type": "quiz",
+      "title_ar": "كويز الاستماع (مراجعة سريعة) — نموذج 50",
+      "section": "Listening",
+      "model_no": 50,
+      "minutes": 12,
+      "tags": [
+        "model50",
+        "listening",
+        "quiz"
+      ],
+      "priority": 4
+    },
+    {
+      "id": "50-LI-DR-098",
+      "type": "drill",
+      "title_ar": "تدريبات مركزة الاستماع — نموذج 50",
+      "section": "Listening",
+      "model_no": 50,
+      "minutes": 12,
+      "tags": [
+        "model50",
+        "listening",
+        "drill"
+      ],
+      "priority": 4
+    },
+    {
+      "id": "51-MI-VI-099",
+      "type": "video",
+      "title_ar": "محاضرة تمهيدية — فهم اختبار STEP + خطة المذاكرة (نموذج 51)",
+      "section": "Mixed",
+      "model_no": 51,
+      "minutes": 18,
+      "tags": [
+        "model51",
+        "intro"
+      ],
+      "priority": 5
+    },
+    {
+      "id": "51-GR-VI-100",
+      "type": "video",
+      "title_ar": "حل نماذج القواعد — نموذج 51 (الجزء 1)",
+      "section": "Grammar",
+      "model_no": 51,
+      "minutes": 25,
+      "tags": [
+        "model51",
+        "grammar",
+        "core"
+      ],
+      "priority": 5
+    },
+    {
+      "id": "51-GR-VI-101",
+      "type": "video",
+      "title_ar": "مراجعة القواعد — نموذج 51 (الجزء 2)",
+      "section": "Grammar",
+      "model_no": 51,
+      "minutes": 15,
+      "tags": [
+        "model51",
+        "grammar",
+        "core"
+      ],
+      "priority": 5
+    },
+    {
+      "id": "51-GR-VI-102",
+      "type": "video",
+      "title_ar": "حل نماذج القواعد — نموذج 51 (الجزء 3)",
+      "section": "Grammar",
+      "model_no": 51,
+      "minutes": 30,
+      "tags": [
+        "model51",
+        "grammar",
+        "core"
+      ],
+      "priority": 5
+    },
+    {
+      "id": "51-GR-VI-103",
+      "type": "video",
+      "title_ar": "حل نماذج القواعد — نموذج 51 (الجزء 4)",
+      "section": "Grammar",
+      "model_no": 51,
+      "minutes": 30,
+      "tags": [
+        "model51",
+        "grammar",
+        "core"
+      ],
+      "priority": 4
+    },
+    {
+      "id": "51-GR-VI-104",
+      "type": "video",
+      "title_ar": "مراجعة القواعد — نموذج 51 (الجزء 5)",
+      "section": "Grammar",
+      "model_no": 51,
+      "minutes": 22,
+      "tags": [
+        "model51",
+        "grammar",
+        "core"
+      ],
+      "priority": 4
+    },
+    {
+      "id": "51-GR-VI-105",
+      "type": "video",
+      "title_ar": "مراجعة القواعد — نموذج 51 (الجزء 6)",
+      "section": "Grammar",
+      "model_no": 51,
+      "minutes": 18,
+      "tags": [
+        "model51",
+        "grammar",
+        "core"
+      ],
+      "priority": 4
+    },
+    {
+      "id": "51-GR-VI-106",
+      "type": "video",
+      "title_ar": "شرح مبسط القواعد — نموذج 51 (الجزء 7)",
+      "section": "Grammar",
+      "model_no": 51,
+      "minutes": 25,
+      "tags": [
+        "model51",
+        "grammar",
+        "core"
+      ],
+      "priority": 4
+    },
+    {
+      "id": "51-GR-VI-107",
+      "type": "video",
+      "title_ar": "أخطاء شائعة القواعد — نموذج 51 (الجزء 8)",
+      "section": "Grammar",
+      "model_no": 51,
+      "minutes": 30,
+      "tags": [
+        "model51",
+        "grammar",
+        "core"
+      ],
+      "priority": 4
+    },
+    {
+      "id": "51-GR-PD-108",
+      "type": "pdf",
+      "title_ar": "ملف تدريبات القواعد + حلول مختصرة — نموذج 51",
+      "section": "Grammar",
+      "model_no": 51,
+      "minutes": 25,
+      "tags": [
+        "model51",
+        "grammar",
+        "practice"
+      ],
+      "priority": 5
+    },
+    {
+      "id": "51-GR-MO-109",
+      "type": "model",
+      "title_ar": "تطبيق نماذج القواعد (مختار) — نموذج 51",
+      "section": "Grammar",
+      "model_no": 51,
+      "minutes": 45,
+      "tags": [
+        "model51",
+        "grammar",
+        "models"
+      ],
+      "priority": 5
+    },
+    {
+      "id": "51-GR-QU-110",
+      "type": "quiz",
+      "title_ar": "كويز القواعد (مراجعة سريعة) — نموذج 51",
+      "section": "Grammar",
+      "model_no": 51,
+      "minutes": 15,
+      "tags": [
+        "model51",
+        "grammar",
+        "quiz"
+      ],
+      "priority": 4
+    },
+    {
+      "id": "51-GR-DR-111",
+      "type": "drill",
+      "title_ar": "تدريبات مركزة القواعد — نموذج 51",
+      "section": "Grammar",
+      "model_no": 51,
+      "minutes": 10,
+      "tags": [
+        "model51",
+        "grammar",
+        "drill"
+      ],
+      "priority": 4
+    },
+    {
+      "id": "51-RE-VI-112",
+      "type": "video",
+      "title_ar": "استراتيجيات القراءة — نموذج 51 (الجزء 1)",
+      "section": "Reading",
+      "model_no": 51,
+      "minutes": 18,
+      "tags": [
+        "model51",
+        "reading",
+        "core"
+      ],
+      "priority": 5
+    },
+    {
+      "id": "51-RE-VI-113",
+      "type": "video",
+      "title_ar": "مراجعة القراءة — نموذج 51 (الجزء 2)",
+      "section": "Reading",
+      "model_no": 51,
+      "minutes": 22,
+      "tags": [
+        "model51",
+        "reading",
+        "core"
+      ],
+      "priority": 5
+    },
+    {
+      "id": "51-RE-VI-114",
+      "type": "video",
+      "title_ar": "مفاهيم أساسية القراءة — نموذج 51 (الجزء 3)",
+      "section": "Reading",
+      "model_no": 51,
+      "minutes": 22,
+      "tags": [
+        "model51",
+        "reading",
+        "core"
+      ],
+      "priority": 5
+    },
+    {
+      "id": "51-RE-VI-115",
+      "type": "video",
+      "title_ar": "مفاهيم أساسية القراءة — نموذج 51 (الجزء 4)",
+      "section": "Reading",
+      "model_no": 51,
+      "minutes": 18,
+      "tags": [
+        "model51",
+        "reading",
+        "core"
+      ],
+      "priority": 4
+    },
+    {
+      "id": "51-RE-VI-116",
+      "type": "video",
+      "title_ar": "مفاهيم أساسية القراءة — نموذج 51 (الجزء 5)",
+      "section": "Reading",
+      "model_no": 51,
+      "minutes": 20,
+      "tags": [
+        "model51",
+        "reading",
+        "core"
+      ],
+      "priority": 4
+    },
+    {
+      "id": "51-RE-VI-117",
+      "type": "video",
+      "title_ar": "تدريب سريع القراءة — نموذج 51 (الجزء 6)",
+      "section": "Reading",
+      "model_no": 51,
+      "minutes": 20,
+      "tags": [
+        "model51",
+        "reading",
+        "core"
+      ],
+      "priority": 4
+    },
+    {
+      "id": "51-RE-VI-118",
+      "type": "video",
+      "title_ar": "مهارات تطبيقية القراءة — نموذج 51 (الجزء 7)",
+      "section": "Reading",
+      "model_no": 51,
+      "minutes": 20,
+      "tags": [
+        "model51",
+        "reading",
+        "core"
+      ],
+      "priority": 4
+    },
+    {
+      "id": "51-RE-VI-119",
+      "type": "video",
+      "title_ar": "تدريب سريع القراءة — نموذج 51 (الجزء 8)",
+      "section": "Reading",
+      "model_no": 51,
+      "minutes": 20,
+      "tags": [
+        "model51",
+        "reading",
+        "core"
+      ],
+      "priority": 4
+    },
+    {
+      "id": "51-RE-PD-120",
+      "type": "pdf",
+      "title_ar": "ملف تدريبات القراءة + حلول مختصرة — نموذج 51",
+      "section": "Reading",
+      "model_no": 51,
+      "minutes": 40,
+      "tags": [
+        "model51",
+        "reading",
+        "practice"
+      ],
+      "priority": 5
+    },
+    {
+      "id": "51-RE-MO-121",
+      "type": "model",
+      "title_ar": "تطبيق نماذج القراءة (مختار) — نموذج 51",
+      "section": "Reading",
+      "model_no": 51,
+      "minutes": 50,
+      "tags": [
+        "model51",
+        "reading",
+        "models"
+      ],
+      "priority": 5
+    },
+    {
+      "id": "51-RE-QU-122",
+      "type": "quiz",
+      "title_ar": "كويز القراءة (مراجعة سريعة) — نموذج 51",
+      "section": "Reading",
+      "model_no": 51,
+      "minutes": 15,
+      "tags": [
+        "model51",
+        "reading",
+        "quiz"
+      ],
+      "priority": 4
+    },
+    {
+      "id": "51-RE-DR-123",
+      "type": "drill",
+      "title_ar": "تدريبات مركزة القراءة — نموذج 51",
+      "section": "Reading",
+      "model_no": 51,
+      "minutes": 8,
+      "tags": [
+        "model51",
+        "reading",
+        "drill"
+      ],
+      "priority": 4
+    },
+    {
+      "id": "51-VO-VI-124",
+      "type": "video",
+      "title_ar": "شرح مبسط المفردات — نموذج 51 (الجزء 1)",
+      "section": "Vocabulary",
+      "model_no": 51,
+      "minutes": 12,
+      "tags": [
+        "model51",
+        "vocabulary",
+        "core"
+      ],
+      "priority": 5
+    },
+    {
+      "id": "51-VO-VI-125",
+      "type": "video",
+      "title_ar": "شرح مبسط المفردات — نموذج 51 (الجزء 2)",
+      "section": "Vocabulary",
+      "model_no": 51,
+      "minutes": 30,
+      "tags": [
+        "model51",
+        "vocabulary",
+        "core"
+      ],
+      "priority": 5
+    },
+    {
+      "id": "51-VO-VI-126",
+      "type": "video",
+      "title_ar": "مفاهيم أساسية المفردات — نموذج 51 (الجزء 3)",
+      "section": "Vocabulary",
+      "model_no": 51,
+      "minutes": 20,
+      "tags": [
+        "model51",
+        "vocabulary",
+        "core"
+      ],
+      "priority": 5
+    },
+    {
+      "id": "51-VO-VI-127",
+      "type": "video",
+      "title_ar": "مفاهيم أساسية المفردات — نموذج 51 (الجزء 4)",
+      "section": "Vocabulary",
+      "model_no": 51,
+      "minutes": 30,
+      "tags": [
+        "model51",
+        "vocabulary",
+        "core"
+      ],
+      "priority": 4
+    },
+    {
+      "id": "51-VO-VI-128",
+      "type": "video",
+      "title_ar": "مراجعة المفردات — نموذج 51 (الجزء 5)",
+      "section": "Vocabulary",
+      "model_no": 51,
+      "minutes": 25,
+      "tags": [
+        "model51",
+        "vocabulary",
+        "core"
+      ],
+      "priority": 4
+    },
+    {
+      "id": "51-VO-VI-129",
+      "type": "video",
+      "title_ar": "مراجعة المفردات — نموذج 51 (الجزء 6)",
+      "section": "Vocabulary",
+      "model_no": 51,
+      "minutes": 20,
+      "tags": [
+        "model51",
+        "vocabulary",
+        "core"
+      ],
+      "priority": 4
+    },
+    {
+      "id": "51-VO-VI-130",
+      "type": "video",
+      "title_ar": "حل نماذج المفردات — نموذج 51 (الجزء 7)",
+      "section": "Vocabulary",
+      "model_no": 51,
+      "minutes": 20,
+      "tags": [
+        "model51",
+        "vocabulary",
+        "core"
+      ],
+      "priority": 4
+    },
+    {
+      "id": "51-VO-VI-131",
+      "type": "video",
+      "title_ar": "مفاهيم أساسية المفردات — نموذج 51 (الجزء 8)",
+      "section": "Vocabulary",
+      "model_no": 51,
+      "minutes": 20,
+      "tags": [
+        "model51",
+        "vocabulary",
+        "core"
+      ],
+      "priority": 4
+    },
+    {
+      "id": "51-VO-PD-132",
+      "type": "pdf",
+      "title_ar": "ملف تدريبات المفردات + حلول مختصرة — نموذج 51",
+      "section": "Vocabulary",
+      "model_no": 51,
+      "minutes": 30,
+      "tags": [
+        "model51",
+        "vocabulary",
+        "practice"
+      ],
+      "priority": 5
+    },
+    {
+      "id": "51-VO-MO-133",
+      "type": "model",
+      "title_ar": "تطبيق نماذج المفردات (مختار) — نموذج 51",
+      "section": "Vocabulary",
+      "model_no": 51,
+      "minutes": 60,
+      "tags": [
+        "model51",
+        "vocabulary",
+        "models"
+      ],
+      "priority": 5
+    },
+    {
+      "id": "51-VO-QU-134",
+      "type": "quiz",
+      "title_ar": "كويز المفردات (مراجعة سريعة) — نموذج 51",
+      "section": "Vocabulary",
+      "model_no": 51,
+      "minutes": 15,
+      "tags": [
+        "model51",
+        "vocabulary",
+        "quiz"
+      ],
+      "priority": 4
+    },
+    {
+      "id": "51-VO-DR-135",
+      "type": "drill",
+      "title_ar": "تدريبات مركزة المفردات — نموذج 51",
+      "section": "Vocabulary",
+      "model_no": 51,
+      "minutes": 12,
+      "tags": [
+        "model51",
+        "vocabulary",
+        "drill"
+      ],
+      "priority": 4
+    },
+    {
+      "id": "51-LI-VI-136",
+      "type": "video",
+      "title_ar": "حل نماذج الاستماع — نموذج 51 (الجزء 1)",
+      "section": "Listening",
+      "model_no": 51,
+      "minutes": 12,
+      "tags": [
+        "model51",
+        "listening",
+        "core"
+      ],
+      "priority": 5
+    },
+    {
+      "id": "51-LI-VI-137",
+      "type": "video",
+      "title_ar": "مراجعة الاستماع — نموذج 51 (الجزء 2)",
+      "section": "Listening",
+      "model_no": 51,
+      "minutes": 25,
+      "tags": [
+        "model51",
+        "listening",
+        "core"
+      ],
+      "priority": 5
+    },
+    {
+      "id": "51-LI-VI-138",
+      "type": "video",
+      "title_ar": "مهارات تطبيقية الاستماع — نموذج 51 (الجزء 3)",
+      "section": "Listening",
+      "model_no": 51,
+      "minutes": 15,
+      "tags": [
+        "model51",
+        "listening",
+        "core"
+      ],
+      "priority": 5
+    },
+    {
+      "id": "51-LI-VI-139",
+      "type": "video",
+      "title_ar": "حل نماذج الاستماع — نموذج 51 (الجزء 4)",
+      "section": "Listening",
+      "model_no": 51,
+      "minutes": 20,
+      "tags": [
+        "model51",
+        "listening",
+        "core"
+      ],
+      "priority": 4
+    },
+    {
+      "id": "51-LI-VI-140",
+      "type": "video",
+      "title_ar": "مهارات تطبيقية الاستماع — نموذج 51 (الجزء 5)",
+      "section": "Listening",
+      "model_no": 51,
+      "minutes": 18,
+      "tags": [
+        "model51",
+        "listening",
+        "core"
+      ],
+      "priority": 4
+    },
+    {
+      "id": "51-LI-VI-141",
+      "type": "video",
+      "title_ar": "مراجعة الاستماع — نموذج 51 (الجزء 6)",
+      "section": "Listening",
+      "model_no": 51,
+      "minutes": 25,
+      "tags": [
+        "model51",
+        "listening",
+        "core"
+      ],
+      "priority": 4
+    },
+    {
+      "id": "51-LI-VI-142",
+      "type": "video",
+      "title_ar": "حل نماذج الاستماع — نموذج 51 (الجزء 7)",
+      "section": "Listening",
+      "model_no": 51,
+      "minutes": 28,
+      "tags": [
+        "model51",
+        "listening",
+        "core"
+      ],
+      "priority": 4
+    },
+    {
+      "id": "51-LI-VI-143",
+      "type": "video",
+      "title_ar": "مراجعة الاستماع — نموذج 51 (الجزء 8)",
+      "section": "Listening",
+      "model_no": 51,
+      "minutes": 28,
+      "tags": [
+        "model51",
+        "listening",
+        "core"
+      ],
+      "priority": 4
+    },
+    {
+      "id": "51-LI-PD-144",
+      "type": "pdf",
+      "title_ar": "ملف تدريبات الاستماع + حلول مختصرة — نموذج 51",
+      "section": "Listening",
+      "model_no": 51,
+      "minutes": 30,
+      "tags": [
+        "model51",
+        "listening",
+        "practice"
+      ],
+      "priority": 5
+    },
+    {
+      "id": "51-LI-MO-145",
+      "type": "model",
+      "title_ar": "تطبيق نماذج الاستماع (مختار) — نموذج 51",
+      "section": "Listening",
+      "model_no": 51,
+      "minutes": 45,
+      "tags": [
+        "model51",
+        "listening",
+        "models"
+      ],
+      "priority": 5
+    },
+    {
+      "id": "51-LI-QU-146",
+      "type": "quiz",
+      "title_ar": "كويز الاستماع (مراجعة سريعة) — نموذج 51",
+      "section": "Listening",
+      "model_no": 51,
+      "minutes": 10,
+      "tags": [
+        "model51",
+        "listening",
+        "quiz"
+      ],
+      "priority": 4
+    },
+    {
+      "id": "51-LI-DR-147",
+      "type": "drill",
+      "title_ar": "تدريبات مركزة الاستماع — نموذج 51",
+      "section": "Listening",
+      "model_no": 51,
+      "minutes": 8,
+      "tags": [
+        "model51",
+        "listening",
+        "drill"
+      ],
+      "priority": 4
+    },
+    {
+      "id": "WK-REV-01",
+      "type": "review",
+      "title_ar": "مراجعة أسبوعية شاملة (الأسبوع 1) + تصحيح أخطاء",
+      "section": "Mixed",
+      "model_no": null,
+      "minutes": 35,
+      "tags": [
+        "weekly",
+        "review",
+        "mixed"
+      ],
+      "priority": 3
+    },
+    {
+      "id": "WK-REV-02",
+      "type": "review",
+      "title_ar": "مراجعة أسبوعية شاملة (الأسبوع 2) + تصحيح أخطاء",
+      "section": "Mixed",
+      "model_no": null,
+      "minutes": 45,
+      "tags": [
+        "weekly",
+        "review",
+        "mixed"
+      ],
+      "priority": 3
+    },
+    {
+      "id": "WK-REV-03",
+      "type": "review",
+      "title_ar": "مراجعة أسبوعية شاملة (الأسبوع 3) + تصحيح أخطاء",
+      "section": "Mixed",
+      "model_no": null,
+      "minutes": 35,
+      "tags": [
+        "weekly",
+        "review",
+        "mixed"
+      ],
+      "priority": 3
+    },
+    {
+      "id": "WK-REV-04",
+      "type": "review",
+      "title_ar": "مراجعة أسبوعية شاملة (الأسبوع 4) + تصحيح أخطاء",
+      "section": "Mixed",
+      "model_no": null,
+      "minutes": 45,
+      "tags": [
+        "weekly",
+        "review",
+        "mixed"
+      ],
+      "priority": 3
+    },
+    {
+      "id": "WK-REV-05",
+      "type": "review",
+      "title_ar": "مراجعة أسبوعية شاملة (الأسبوع 5) + تصحيح أخطاء",
+      "section": "Mixed",
+      "model_no": null,
+      "minutes": 40,
+      "tags": [
+        "weekly",
+        "review",
+        "mixed"
+      ],
+      "priority": 3
+    },
+    {
+      "id": "WK-REV-06",
+      "type": "review",
+      "title_ar": "مراجعة أسبوعية شاملة (الأسبوع 6) + تصحيح أخطاء",
+      "section": "Mixed",
+      "model_no": null,
+      "minutes": 35,
+      "tags": [
+        "weekly",
+        "review",
+        "mixed"
+      ],
+      "priority": 3
+    },
+    {
+      "id": "WK-REV-07",
+      "type": "review",
+      "title_ar": "مراجعة أسبوعية شاملة (الأسبوع 7) + تصحيح أخطاء",
+      "section": "Mixed",
+      "model_no": null,
+      "minutes": 35,
+      "tags": [
+        "weekly",
+        "review",
+        "mixed"
+      ],
+      "priority": 3
+    },
+    {
+      "id": "WK-REV-08",
+      "type": "review",
+      "title_ar": "مراجعة أسبوعية شاملة (الأسبوع 8) + تصحيح أخطاء",
+      "section": "Mixed",
+      "model_no": null,
+      "minutes": 30,
+      "tags": [
+        "weekly",
+        "review",
+        "mixed"
+      ],
+      "priority": 3
+    }
+  ]
+}
