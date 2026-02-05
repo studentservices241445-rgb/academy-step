@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
+  <meta name="theme-color" content="#0F172A" />
+  <title>بدء الاختبار — أكاديمية عايد الرسمية</title>
+  <link rel="manifest" href="./manifest.webmanifest" />
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/img/icons/favicon-32.png" />
+  <link rel="stylesheet" href="./assets/css/app.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800;900&family=Tajawal:wght@400;500;700;800;900&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="./index.html" aria-label="الرئيسية">
+        <img src="./assets/img/icons/icon-192.png" alt="أكاديمية عايد الرسمية" />
+        <div>
+          <div class="title">أكاديمية عايد الرسمية</div>
+          <div class="subtitle">بدء اختبار تحديد المستوى</div>
+        </div>
+      </a>
+      <nav class="nav" aria-label="التنقل">
+        <a href="./index.html">الرئيسية</a>
+        <a href="./quiz.html">الكويزات</a>
+        <a href="./results.html">خطتي/نتائجي</a>
+        <a href="./support.html">الدعم</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <div id="lockBox" style="display:none"></div>
+
+    <div class="card">
+      <div class="badge gold">تسجيل سريع قبل الاختبار</div>
+      <div class="h1" style="margin:10px 0 8px">خلّنا نضبط الخطة على وقتك</div>
+      <p class="p">بياناتك تُستخدم فقط داخل البرنامج (لا يوجد رفع للسيرفر). بعد الاختبار نطلع لك خطة + جدول مبني على فهرس الدورة المكثفة.</p>
+
+      <form id="startForm">
+        <div class="grid-2">
+          <div class="field">
+            <div class="label">اسمك</div>
+            <input class="input" id="name" name="name" placeholder="مثال: محمد" autocomplete="name" />
+            <div class="help">الاسم يظهر داخل الخطة وملف PDF فقط.</div>
+          </div>
+
+          <div class="field">
+            <div class="label">متى اختبارك تقريبًا؟</div>
+            <select id="exam_window" class="input" required>
+              <option value="" disabled selected>اختر…</option>
+              <option value="lt_24h">أقل من 24 ساعة</option>
+              <option value="3_days">خلال 3 أيام</option>
+              <option value="7_days">خلال أسبوع</option>
+              <option value="14_days">خلال أسبوعين</option>
+              <option value="30_days">خلال شهر</option>
+              <option value="not_booked">ما حددت الموعد (أبي خطة عامة)</option>
+            </select>
+          </div>
+
+          <div class="field">
+            <div class="label">وقتك اليومي</div>
+            <select id="minutes_per_day" class="input" required>
+              <option value="30">30 دقيقة</option>
+              <option value="45">45 دقيقة</option>
+              <option value="60" selected>60 دقيقة</option>
+              <option value="90">90 دقيقة</option>
+              <option value="120">120 دقيقة</option>
+            </select>
+          </div>
+
+          <div class="field">
+            <div class="label">هدفك</div>
+            <select id="goal" class="input">
+              <option value="رفع الدرجة">رفع الدرجة</option>
+              <option value="اجتياز الاختبار">اجتياز الاختبار</option>
+              <option value="رفع مستوى اللغة">رفع مستوى اللغة</option>
+              <option value="خطة منظمة فقط">خطة منظمة فقط</option>
+            </select>
+          </div>
+
+          <div class="field">
+            <div class="label">مرحلتك</div>
+            <select id="stage" class="input">
+              <option value="ثانوي">ثانوي</option>
+              <option value="جامعي" selected>جامعي</option>
+              <option value="موظف">موظف</option>
+              <option value="خريج">خريج</option>
+              <option value="أخرى">أخرى</option>
+            </select>
+          </div>
+
+          <div class="field">
+            <div class="label">وقت مذاكرتك الأفضل</div>
+            <select id="best_time" class="input">
+              <option value="morning">الصباح</option>
+              <option value="afternoon">بعد الظهر</option>
+              <option value="night" selected>الليل</option>
+              <option value="flex">مرن</option>
+            </select>
+          </div>
+
+          <div class="field">
+            <div class="label">توقعك لأضعف قسم (اختياري)</div>
+            <select id="weak_guess" class="input">
+              <option value="auto" selected>خلّ الاختبار يحدد</option>
+              <option value="Vocabulary">المفردات</option>
+              <option value="Grammar">القواعد</option>
+              <option value="Reading">القراءة</option>
+              <option value="Listening">الاستماع</option>
+            </select>
+            <div class="help">الخطة الأساسية تعتمد على نتيجتك الفعلية من الاختبار.</div>
+          </div>
+
+          <div class="field">
+            <div class="label">درجة سابقة (اختياري)</div>
+            <input class="input" id="previous_score" inputmode="numeric" placeholder="مثال: 62" />
+          </div>
+
+          <div class="field">
+            <div class="label">هدف الدرجة (اختياري)</div>
+            <input class="input" id="target_score" inputmode="numeric" placeholder="مثال: 85" />
+          </div>
+        </div>
+
+        <div class="divider"></div>
+        <div class="notice-success">
+          تذكير مهم: الاختبار الكامل <b>محاولة واحدة كل 24 ساعة</b>. إذا خلصت… لا تعيد مباشرة، راجع أخطاءك أول.
+        </div>
+
+        <div class="btn-row" style="margin-top:12px">
+          <button class="btn primary" type="submit">ابدأ الاختبار</button>
+          <a class="btn" href="./quiz.html">أبي كويزات قبل الاختبار</a>
+        </div>
+      </form>
+    </div>
+
+    <footer>
+      <div class="line">
+        <div>© <span id="year"></span> أكاديمية عايد الرسمية</div>
+        <div style="display:flex;gap:12px;flex-wrap:wrap">
+          <a href="./privacy.html">الخصوصية</a>
+          <a href="./terms.html">الشروط</a>
+        </div>
+      </div>
+    </footer>
+  </main>
+
+  <div class="modal-backdrop" id="modalBackdrop" aria-hidden="true">
+    <div class="modal" role="dialog" aria-modal="true">
+      <h3 id="modalTitle"></h3>
+      <div id="modalBody"></div>
+    </div>
+  </div>
+
+  <script type="module" src="./assets/js/bootstrap.js"></script>
+  <script type="module" src="./assets/js/start.js"></script>
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>

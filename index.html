@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
+  <meta name="theme-color" content="#0F172A" />
+  <title>أكاديمية عايد الرسمية — برنامج تحديد مستوى STEP</title>
+  <link rel="manifest" href="./manifest.webmanifest" />
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/img/icons/favicon-32.png" />
+  <link rel="apple-touch-icon" href="./assets/img/icons/icon-192.png" />
+  <link rel="stylesheet" href="./assets/css/app.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800;900&family=Tajawal:wght@400;500;700;800;900&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="./index.html" aria-label="الرئيسية">
+        <img src="./assets/img/icons/icon-192.png" alt="أكاديمية عايد الرسمية" />
+        <div>
+          <div class="title">أكاديمية عايد الرسمية</div>
+          <div class="subtitle">برنامج تحديد مستوى STEP (مجاني)</div>
+        </div>
+      </a>
+      <nav class="nav" aria-label="التنقل">
+        <a href="./start.html">بدء الاختبار</a>
+        <a href="./quiz.html">الكويزات</a>
+        <a href="./results.html">خطتي/نتائجي</a>
+        <a href="./progress.html">السجل</a>
+        <a href="./faq.html">FAQ</a>
+        <a href="./group.html">مجموعة الالتزام</a>
+        <a href="./support.html">الدعم</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <div class="hero-grid">
+        <div class="card">
+          <div class="badge gold">✅ برنامج مجاني لتحديد المستوى + خطة + جدول + كويزات + مشاركة + تثبيت كتطبيق (PWA)</div>
+          <div class="h1">خذ نتيجتك… وخذ خطة مذاكرة مطمّنة على طول</div>
+          <p class="p">هذا البرنامج مصمم عشان يعطيك اختبار تحديد مستوى (50 سؤال)، وبعدها يطلع لك تحليل نقاط الضعف + خطة + جدول مذاكرة يومي مبني على فهرس الدورة المكثفة. وكل شيء محفوظ عندك داخل جهازك.</p>
+
+          <div class="btn-row">
+            <a class="btn primary" href="./start.html">ابدأ الآن (تسجيل سريع)</a>
+            <a class="btn" href="./quiz.html">ابدأ كويز تدريبي</a>
+            <a class="btn" href="./results.html">خطتي/نتائجي</a>
+          </div>
+
+          <div class="divider"></div>
+
+          <div class="btn-row">
+            <button class="btn dark" id="btnInstall" type="button">تثبيت التطبيق</button>
+            <button class="btn" id="btnShareProgram" type="button">مشاركة البرنامج</button>
+            <a class="btn" href="./faq.html">الأسئلة الشائعة</a>
+            <a class="btn" href="./group.html">سوّ مجموعة التزام</a>
+          </div>
+
+          <div class="divider"></div>
+
+          <div class="grid-2">
+            <div class="card soft">
+              <div class="label">وش يطلع لك بعد الاختبار؟</div>
+              <ul style="margin:10px 0 0;color:rgba(15,23,42,0.8)">
+                <li>نسبة عامة + مستوى تدريبي</li>
+                <li>نقاط ضعفك (أضعف قسمين)</li>
+                <li>خطة مطمّنة + جدول يومي واضح</li>
+                <li>نسخ الخطة + مشاركة + PDF</li>
+              </ul>
+            </div>
+            <div class="card soft">
+              <div class="label">أهم شيء في المذاكرة:</div>
+              <ul style="margin:10px 0 0;color:rgba(15,23,42,0.8)">
+                <li>لا تكثر مصادر</li>
+                <li>حل + مراجعة أخطاء</li>
+                <li>ثبات يومي حتى لو 30 دقيقة</li>
+                <li>كويزات حسب القسم/الصعوبة/النموذج</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="badge">ذكر يطمّن القلب</div>
+          <div class="divider"></div>
+          <div class="label">آية</div>
+          <pre id="verseBlock" style="white-space:pre-wrap;margin:8px 0 14px;color:rgba(15,23,42,0.85)"></pre>
+          <div class="label">حديث</div>
+          <pre id="hadithBlock" style="white-space:pre-wrap;margin:8px 0 0;color:rgba(15,23,42,0.85)"></pre>
+        </div>
+      </div>
+    </section>
+
+    <section style="margin-top:14px">
+      <div class="card">
+        <div class="badge gold">تقييمات ⭐⭐⭐⭐⭐</div>
+        <div class="h1" style="margin:10px 0 8px">تجارب طلاب</div>
+        <p class="p">(المحتوى موثّق وموجود ضمن قاعدة البيانات الداخلية للبرنامج)</p>
+        <div id="reviews" style="display:flex;gap:12px;overflow:auto;padding-bottom:6px"></div>
+      </div>
+    </section>
+
+    <section style="margin-top:14px">
+      <div class="card">
+        <div class="badge">قصص نجاح</div>
+        <div class="h1" style="margin:10px 0 8px">وش صار معهم بعد الالتزام بالخطة؟</div>
+        <div id="stories" class="accordion"></div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="line">
+        <div>© <span id="year"></span> أكاديمية عايد الرسمية</div>
+        <div style="display:flex;gap:12px;flex-wrap:wrap">
+          <a href="./privacy.html">الخصوصية</a>
+          <a href="./terms.html">الشروط</a>
+        </div>
+      </div>
+      <div style="margin-top:8px" class="muted">ملاحظة: بياناتك (الاسم/النتائج/الخطة) محفوظة محليًا في جهازك فقط.</div>
+    </footer>
+  </main>
+
+  <!-- Shared Modal Root -->
+  <div class="modal-backdrop" id="modalBackdrop" aria-hidden="true">
+    <div class="modal" role="dialog" aria-modal="true">
+      <h3 id="modalTitle"></h3>
+      <div id="modalBody"></div>
+    </div>
+  </div>
+
+  <!-- Assistant UI is created automatically if missing -->
+
+  <script type="module" src="./assets/js/bootstrap.js"></script>
+  <script type="module" src="./assets/js/index.js"></script>
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>

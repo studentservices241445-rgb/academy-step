@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
+  <meta name="theme-color" content="#0F172A" />
+  <title>سياسة الخصوصية — أكاديمية عايد الرسمية</title>
+  <link rel="manifest" href="./manifest.webmanifest" />
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/img/icons/favicon-32.png" />
+  <link rel="stylesheet" href="./assets/css/app.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800;900&family=Tajawal:wght@400;500;700;800;900&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="./index.html" aria-label="الرئيسية">
+        <img src="./assets/img/icons/icon-192.png" alt="أكاديمية عايد الرسمية" />
+        <div>
+          <div class="title">أكاديمية عايد الرسمية</div>
+          <div class="subtitle">سياسة الخصوصية</div>
+        </div>
+      </a>
+      <nav class="nav" aria-label="التنقل">
+        <a href="./index.html">الرئيسية</a>
+        <a href="./faq.html">FAQ</a>
+        <a href="./support.html">الدعم</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <div class="card">
+      <div class="badge gold">الخصوصية</div>
+      <div class="h1" style="margin:10px 0 8px">بياناتك عندك…</div>
+      <p class="p">هذا البرنامج يعمل كـ Web App/PWA. بشكل افتراضي، يتم حفظ البيانات محليًا في جهازك فقط باستخدام LocalStorage (مثل: الاسم، نتيجة الاختبار، الخطة، سجل الكويزات).</p>
+      <div class="divider"></div>
+      <div class="label">وش يتم حفظه؟</div>
+      <ul style="margin:10px 0 0;color:rgba(15,23,42,0.8)">
+        <li>بيانات الملف الشخصي (الاسم + تفضيلات المذاكرة)</li>
+        <li>نتيجة الاختبار الكامل + التحليل</li>
+        <li>الخطة والجدول (كاش لتحسين السرعة)</li>
+        <li>سجل الكويزات</li>
+      </ul>
+      <div class="divider"></div>
+      <div class="label">الحذف</div>
+      <p class="p">تقدر تحذف بياناتك في أي وقت من صفحة <a href="./progress.html"><b>السجل</b></a>.</p>
+      <div class="divider"></div>
+      <div class="label">المشاركة</div>
+      <p class="p">زر المشاركة يستخدم ميزة المشاركة في جهازك (Web Share API) أو النسخ للحافظة إذا ما كانت مدعومة.</p>
+    </div>
+
+    <footer>
+      <div class="line">
+        <div>© <span id="year"></span> أكاديمية عايد الرسمية</div>
+        <div style="display:flex;gap:12px;flex-wrap:wrap">
+          <a href="./terms.html">الشروط</a>
+        </div>
+      </div>
+    </footer>
+  </main>
+
+  <div class="modal-backdrop" id="modalBackdrop" aria-hidden="true">
+    <div class="modal" role="dialog" aria-modal="true">
+      <h3 id="modalTitle"></h3>
+      <div id="modalBody"></div>
+    </div>
+  </div>
+
+  <script type="module" src="./assets/js/bootstrap.js"></script>
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>

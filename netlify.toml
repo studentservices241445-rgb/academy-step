@@ -1,0 +1,15 @@
+# Netlify configuration — AYED STEP
+# This enables Netlify Functions (serverless) for the AI features.
+
+[build]
+  publish = "."
+  functions = "netlify/functions"
+
+[functions]
+  node_bundler = "esbuild"
+
+# Optional: convenience redirect so you can call /api/ai instead of /.netlify/functions/ai
+[[redirects]]
+  from = "/api/*"
+  to = "/.netlify/functions/:splat"
+  status = 200

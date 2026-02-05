@@ -1,0 +1,188 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
+  <meta name="theme-color" content="#0F172A" />
+  <title>النتائج والخطة — أكاديمية عايد الرسمية</title>
+  <link rel="manifest" href="./manifest.webmanifest" />
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/img/icons/favicon-32.png" />
+  <link rel="stylesheet" href="./assets/css/app.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800;900&family=Tajawal:wght@400;500;700;800;900&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="./index.html" aria-label="الرئيسية">
+        <img src="./assets/img/icons/icon-192.png" alt="أكاديمية عايد الرسمية" />
+        <div>
+          <div class="title">أكاديمية عايد الرسمية</div>
+          <div class="subtitle">نتيجتك + خطتك + جدول مذاكرتك</div>
+        </div>
+      </a>
+      <nav class="nav" aria-label="التنقل">
+        <a href="./index.html">الرئيسية</a>
+        <a href="./test.html">الاختبار</a>
+        <a href="./quiz.html">الكويزات</a>
+        <a href="./progress.html">السجل</a>
+        <a href="./group.html">مجموعة الالتزام</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <div class="print-only" style="margin-bottom:14px">
+      <div style="display:flex;align-items:center;gap:12px">
+        <img src="./assets/img/icons/icon-192.png" alt="logo" style="width:56px;height:56px;border-radius:18px" />
+        <div>
+          <div style="font-weight:900">أكاديمية عايد الرسمية</div>
+          <div class="muted">برنامج تحديد مستوى STEP</div>
+        </div>
+        <div style="margin-inline-start:auto;opacity:0.28;font-weight:900">Ayed Official</div>
+      </div>
+      <div style="margin-top:10px" class="muted">اسم الطالب/ة: <b id="printName">—</b></div>
+      <div style="margin-top:6px" class="muted">رابط الدورة المكثفة (يظهر داخل PDF فقط): <a id="courseLink" href="#" target="_blank" rel="noopener"><b>فتح الرابط</b></a></div>
+      <div class="divider"></div>
+    </div>
+
+    <div id="resultsRoot">
+      <div class="card">
+        <div class="breadcrumbs">
+          <a href="./index.html">الرئيسية</a>
+          <span>›</span>
+          <a href="./test.html">الاختبار</a>
+          <span>›</span>
+          <span>النتائج</span>
+        </div>
+
+        <div class="kpi" style="margin-top:12px">
+          <div class="box">
+            <div class="num" id="scoreOverall">—</div>
+            <div class="cap">نسبتك العامة</div>
+          </div>
+          <div class="box">
+            <div class="num" id="scoreLevel">—</div>
+            <div class="cap">مستوى تدريبي</div>
+          </div>
+          <div class="box">
+            <div class="num" id="scoreCorrect">—</div>
+            <div class="cap">عدد الصحيح</div>
+          </div>
+          <div class="box">
+            <div class="num" id="scoreDate">—</div>
+            <div class="cap">وقت المحاولة</div>
+          </div>
+        </div>
+
+        <div class="divider"></div>
+
+        <div class="label">تحليل سريع لنقاط الضعف</div>
+        <div class="muted" style="margin-top:6px">أضعف قسمين: <b id="weakSections">—</b></div>
+
+        <div class="progress-bars" style="margin-top:12px">
+          <div>
+            <div class="bar-row"><span data-label="Vocabulary"></span><span class="muted">مستهدف</span></div>
+            <div class="bar"><span data-bar="Vocabulary"></span></div>
+          </div>
+          <div>
+            <div class="bar-row"><span data-label="Grammar"></span><span class="muted">مستهدف</span></div>
+            <div class="bar"><span data-bar="Grammar"></span></div>
+          </div>
+          <div>
+            <div class="bar-row"><span data-label="Reading"></span><span class="muted">مستهدف</span></div>
+            <div class="bar"><span data-bar="Reading"></span></div>
+          </div>
+          <div>
+            <div class="bar-row"><span data-label="Listening"></span><span class="muted">مستهدف</span></div>
+            <div class="bar"><span data-bar="Listening"></span></div>
+          </div>
+        </div>
+
+        <div class="divider"></div>
+
+        <div class="grid-2">
+          <div class="card soft">
+            <div class="badge gold">الخطة</div>
+            <div class="p" id="planText" style="white-space:pre-wrap;margin-top:10px"></div>
+            <div class="divider"></div>
+            <div class="label">وش تركز عليه اليوم؟</div>
+            <div class="p" id="todayTasks" style="white-space:pre-wrap;margin-top:8px"></div>
+
+            <div class="btn-row">
+              <button class="btn" id="btnCopyPlan" type="button">نسخ الخطة</button>
+              <button class="btn" id="btnSharePlan" type="button">مشاركة الخطة</button>
+              <button class="btn" id="btnShareProgram" type="button">مشاركة البرنامج</button>
+            </div>
+
+            <div class="btn-row">
+              <button class="btn primary" id="btnPrintPdf" type="button">تحميل PDF</button>
+              <button class="btn bounce" id="goTable" type="button">⬇️ نزّلني للجدول</button>
+            </div>
+
+            <div class="help">زر (تحميل PDF) يفتح وضع الطباعة — اختر Save as PDF.</div>
+          </div>
+
+          <div>
+            <div id="subscriptionBox" style="display:none"></div>
+            <div class="card" style="margin-top:14px">
+              <div class="badge">التزام أسرع</div>
+              <div class="h1" style="margin:10px 0 8px">سوّ مجموعة التزام</div>
+              <p class="p">بنفس خطتك ونفس الجدول، وتشارك تمارين/كويزات يوميًا بشكل مرتب.</p>
+              <div class="btn-row">
+                <a class="btn primary" href="./group.html">ابدأ الآن</a>
+                <a class="btn" href="./quiz.html">ابدأ كويز اليوم</a>
+              </div>
+            </div>
+
+            <div class="card" style="margin-top:14px">
+              <div class="badge">ملاحظة</div>
+              <p class="p">المحاولة الكاملة: محاولة واحدة كل 24 ساعة. الأفضل: راجع أخطاءك + كويزات على أضعف قسمين قبل ما تعيد.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="divider"></div>
+
+        <div id="planTableAnchor" class="label">الجدول اليومي (مبني على فهرس الدورة المكثفة)</div>
+        <div class="table-wrap" style="margin-top:12px">
+          <table>
+            <thead>
+              <tr>
+                <th>اليوم</th>
+                <th>مهام اليوم (حسب وقتك)</th>
+                <th>تم</th>
+              </tr>
+            </thead>
+            <tbody id="planTableBody"></tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <div class="line">
+        <div>© <span id="year"></span> أكاديمية عايد الرسمية</div>
+        <div style="display:flex;gap:12px;flex-wrap:wrap">
+          <a href="./privacy.html">الخصوصية</a>
+          <a href="./terms.html">الشروط</a>
+        </div>
+      </div>
+    </footer>
+  </main>
+
+  <div class="modal-backdrop" id="modalBackdrop" aria-hidden="true">
+    <div class="modal" role="dialog" aria-modal="true">
+      <h3 id="modalTitle"></h3>
+      <div id="modalBody"></div>
+    </div>
+  </div>
+
+  <script type="module" src="./assets/js/bootstrap.js"></script>
+  <script type="module" src="./assets/js/results.js"></script>
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>

@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
+  <meta name="theme-color" content="#0F172A" />
+  <title>الأسئلة الشائعة FAQ — أكاديمية عايد الرسمية</title>
+  <link rel="manifest" href="./manifest.webmanifest" />
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/img/icons/favicon-32.png" />
+  <link rel="stylesheet" href="./assets/css/app.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800;900&family=Tajawal:wght@400;500;700;800;900&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="./index.html" aria-label="الرئيسية">
+        <img src="./assets/img/icons/icon-192.png" alt="أكاديمية عايد الرسمية" />
+        <div>
+          <div class="title">أكاديمية عايد الرسمية</div>
+          <div class="subtitle">الأسئلة الشائعة (بحث + تصنيفات)</div>
+        </div>
+      </a>
+      <nav class="nav" aria-label="التنقل">
+        <a href="./index.html">الرئيسية</a>
+        <a href="./start.html">بدء الاختبار</a>
+        <a href="./quiz.html">الكويزات</a>
+        <a href="./results.html">خطتي/نتائجي</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <div class="card">
+      <div class="badge gold">FAQ</div>
+      <div class="h1" style="margin:10px 0 8px">ابحث عن سؤالك بسرعة</div>
+      <p class="p">المحتوى يُقرأ من <b>assets/content/faq.json</b>.</p>
+
+      <div class="field" style="margin-bottom:10px">
+        <input id="faqSearch" class="input" placeholder="اكتب كلمة… مثال: محاولة / PDF / تثبيت / كويز" />
+      </div>
+
+      <div class="chips" id="faqChips"></div>
+
+      <div class="divider"></div>
+
+      <div id="faqList" class="accordion"></div>
+
+      <div class="divider"></div>
+
+      <div class="btn-row">
+        <a class="btn primary" href="./start.html">بدء الاختبار</a>
+        <a class="btn" href="./quiz.html">الكويزات</a>
+        <a class="btn" href="./results.html">خطتي/نتائجي</a>
+        <a class="btn" href="./support.html">تواصل معنا</a>
+      </div>
+    </div>
+
+    <footer>
+      <div class="line">
+        <div>© <span id="year"></span> أكاديمية عايد الرسمية</div>
+        <div style="display:flex;gap:12px;flex-wrap:wrap">
+          <a href="./privacy.html">الخصوصية</a>
+          <a href="./terms.html">الشروط</a>
+        </div>
+      </div>
+    </footer>
+  </main>
+
+  <div class="modal-backdrop" id="modalBackdrop" aria-hidden="true">
+    <div class="modal" role="dialog" aria-modal="true">
+      <h3 id="modalTitle"></h3>
+      <div id="modalBody"></div>
+    </div>
+  </div>
+
+  <script type="module" src="./assets/js/bootstrap.js"></script>
+  <script type="module" src="./assets/js/faq.js"></script>
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>

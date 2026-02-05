@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
+  <meta name="theme-color" content="#0F172A" />
+  <title>السجل والتقدم — أكاديمية عايد الرسمية</title>
+  <link rel="manifest" href="./manifest.webmanifest" />
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/img/icons/favicon-32.png" />
+  <link rel="stylesheet" href="./assets/css/app.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800;900&family=Tajawal:wght@400;500;700;800;900&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="./index.html" aria-label="الرئيسية">
+        <img src="./assets/img/icons/icon-192.png" alt="أكاديمية عايد الرسمية" />
+        <div>
+          <div class="title">أكاديمية عايد الرسمية</div>
+          <div class="subtitle">السجل + استرجاع + حذف بيانات المستخدم</div>
+        </div>
+      </a>
+      <nav class="nav" aria-label="التنقل">
+        <a href="./index.html">الرئيسية</a>
+        <a href="./test.html">الاختبار</a>
+        <a href="./results.html">خطتي/نتائجي</a>
+        <a href="./quiz.html">الكويزات</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <div id="noResultBox" style="margin-bottom:14px"></div>
+
+    <div id="profileBox"></div>
+
+    <div class="grid-2" style="margin-top:14px">
+      <div class="card">
+        <div class="badge gold">محاولات الاختبار الكامل</div>
+        <div class="table-wrap" style="margin-top:12px">
+          <table>
+            <thead>
+              <tr>
+                <th>التاريخ</th>
+                <th>النتيجة</th>
+                <th>الأضعف</th>
+              </tr>
+            </thead>
+            <tbody id="attemptsTbody"></tbody>
+          </table>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="badge">سجل الكويزات</div>
+        <div class="table-wrap" style="margin-top:12px">
+          <table>
+            <thead>
+              <tr>
+                <th>التاريخ</th>
+                <th>الإعدادات</th>
+                <th>النتيجة</th>
+                <th>Seed</th>
+              </tr>
+            </thead>
+            <tbody id="quizTbody"></tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+
+    <div class="card" style="margin-top:14px">
+      <div class="badge">إدارة البيانات</div>
+      <p class="p">تقدر تحذف بياناتك من هذا الجهاز (LocalStorage) متى ما حبيت.</p>
+      <div class="btn-row">
+        <button class="btn danger" id="btnClear" type="button">حذف بياناتي</button>
+        <a class="btn" href="./start.html">تعديل بياناتي / بدء جديد</a>
+      </div>
+    </div>
+
+    <footer>
+      <div class="line">
+        <div>© <span id="year"></span> أكاديمية عايد الرسمية</div>
+        <div style="display:flex;gap:12px;flex-wrap:wrap">
+          <a href="./privacy.html">الخصوصية</a>
+          <a href="./terms.html">الشروط</a>
+        </div>
+      </div>
+    </footer>
+  </main>
+
+  <div class="modal-backdrop" id="modalBackdrop" aria-hidden="true">
+    <div class="modal" role="dialog" aria-modal="true">
+      <h3 id="modalTitle"></h3>
+      <div id="modalBody"></div>
+    </div>
+  </div>
+
+  <script type="module" src="./assets/js/bootstrap.js"></script>
+  <script type="module" src="./assets/js/progress.js"></script>
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>

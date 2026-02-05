@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
+  <meta name="theme-color" content="#0F172A" />
+  <title>مجموعة الالتزام — أكاديمية عايد الرسمية</title>
+  <link rel="manifest" href="./manifest.webmanifest" />
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/img/icons/favicon-32.png" />
+  <link rel="stylesheet" href="./assets/css/app.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800;900&family=Tajawal:wght@400;500;700;800;900&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="./index.html" aria-label="الرئيسية">
+        <img src="./assets/img/icons/icon-192.png" alt="أكاديمية عايد الرسمية" />
+        <div>
+          <div class="title">أكاديمية عايد الرسمية</div>
+          <div class="subtitle">مجموعة الالتزام (واتساب/تلجرام)</div>
+        </div>
+      </a>
+      <nav class="nav" aria-label="التنقل">
+        <a href="./index.html">الرئيسية</a>
+        <a href="./results.html">خطتي/نتائجي</a>
+        <a href="./quiz.html">الكويزات</a>
+        <a href="./support.html">الدعم</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <div class="card">
+      <div class="badge gold">مجموعة الالتزام</div>
+      <div class="h1" style="margin:10px 0 8px">سوّ قروب/قناة على نفس خطتك</div>
+      <p class="p">بعد ما تطلع نتيجتك… المجموعة تساعدك تلتزم (تم ✅) + مراجعة أخطاء + كويز يومي.</p>
+
+      <div id="groupRoot"></div>
+
+      <div class="divider"></div>
+
+      <form id="groupForm">
+        <div class="grid-2">
+          <div class="field">
+            <div class="label">المنصة</div>
+            <select id="platform" class="input">
+              <option value="واتساب">واتساب</option>
+              <option value="تلجرام">تلجرام</option>
+            </select>
+          </div>
+
+          <div class="field">
+            <div class="label">نوع المجموعة</div>
+            <select id="groupType" class="input">
+              <option value="private">خاصة (مع أصدقائي)</option>
+              <option value="public">عامة (للطلاب)</option>
+            </select>
+          </div>
+
+          <div class="field">
+            <div class="label">(تلجرام) وضعها</div>
+            <select id="mode" class="input">
+              <option value="group">مجموعة</option>
+              <option value="channel">قناة (تلجرام)</option>
+            </select>
+          </div>
+
+          <div class="field">
+            <div class="label">رابط المجموعة/القناة (إلزامي)</div>
+            <input id="groupUrl" class="input" placeholder="ضع الرابط هنا" />
+          </div>
+        </div>
+
+        <div class="divider"></div>
+
+        <div class="label">اقتراحات أسماء (اختر واحد)</div>
+        <div class="card soft" id="nameSuggestions" style="margin-top:10px"></div>
+
+        <div class="divider"></div>
+
+        <div class="label">قواعد مقترحة للمجموعة</div>
+        <div class="card soft" id="rulesBox" style="margin-top:10px"></div>
+        <div class="btn-row">
+          <button class="btn" id="btnCopyRules" type="button">نسخ القواعد</button>
+        </div>
+
+        <div class="divider"></div>
+
+        <div class="btn-row">
+          <button class="btn primary" type="submit">توليد رسالة المشاركة</button>
+          <a class="btn" href="./results.html">رجوع للنتائج</a>
+        </div>
+
+        <div class="field" style="margin-top:14px">
+          <div class="label">رسالة المشاركة (جاهزة)</div>
+          <textarea id="shareOutput" class="input" placeholder="بعد توليد الرسالة… بتطلع هنا"></textarea>
+          <div class="btn-row">
+            <button class="btn" id="btnCopyGroupMsg" type="button">نسخ الرسالة</button>
+            <button class="btn dark" id="btnShareGroupMsg" type="button">مشاركة</button>
+          </div>
+        </div>
+      </form>
+    </div>
+
+    <footer>
+      <div class="line">
+        <div>© <span id="year"></span> أكاديمية عايد الرسمية</div>
+        <div style="display:flex;gap:12px;flex-wrap:wrap">
+          <a href="./privacy.html">الخصوصية</a>
+          <a href="./terms.html">الشروط</a>
+        </div>
+      </div>
+    </footer>
+  </main>
+
+  <div class="modal-backdrop" id="modalBackdrop" aria-hidden="true">
+    <div class="modal" role="dialog" aria-modal="true">
+      <h3 id="modalTitle"></h3>
+      <div id="modalBody"></div>
+    </div>
+  </div>
+
+  <script type="module" src="./assets/js/bootstrap.js"></script>
+  <script type="module" src="./assets/js/group.js"></script>
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
